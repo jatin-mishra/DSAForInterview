@@ -26,8 +26,7 @@ Solution:
 
     Approach 1: (knapsack dp with given recurrence)
     Base case:
-        ways(am=0, i) : 0
-        ways(0, 0) : 1
+        ways(am=0, i) : 1 (only way by picking no coin, we make amount = 0)
         ways(am, 0) : 0
 
     Time Complexity: O(am * size_of_coins) ~ 5000 * 300 ~ 1.5 * 10^6

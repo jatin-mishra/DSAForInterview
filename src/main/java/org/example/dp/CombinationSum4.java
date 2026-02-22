@@ -32,13 +32,13 @@ Approach 1:
     r(3)
         cnt = 0
         [1,2,3]
-        cnt + (r(2) + r(1) + is_coin?1:0) (2 + 1 + 1)
+        cnt + (r(2) + r(1) + r(0)) (2 + 1 + 1)
         return cnt = 4. ( {1,1,1}, {2,1}, {1,2}, {3})
 
     r(2)
         cnt = 0
         [1,2,3]
-        cnt + r(1) + is_coin?1:0 (0 + 1 + 1)
+        cnt + r(1) + r(0) (0 + 1 + 1)
         return cnt -> 2 ( {1,1}, {2} )
 
     r(1)
@@ -48,7 +48,7 @@ Approach 1:
         return cnt -> 1 -> ( {1} )
 
     r(0)
-        return 0
+        return {} -> 1
 
     Time Complexity: O(target * n)
     Space Complexity: O(n)
