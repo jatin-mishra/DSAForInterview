@@ -9,7 +9,7 @@ Requirement:
     - infinite number of coins of each type
 
 
-Corner cases:
+Scale:
 - size of amount? <= 5000
 - size of coins array? <= 300
 - biggest and smallest coin <= 500

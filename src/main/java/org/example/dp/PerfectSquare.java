@@ -17,6 +17,10 @@ Requirement:
 - find least number of square numbers that sum to n
 
 
+Scale:
+- TODO
+
+
 Solution and Base cases:
 Approach 1:
     num(n): minimium number of squares need to sum upto n

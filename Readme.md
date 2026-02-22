@@ -13,7 +13,7 @@
 
 # Example Structure 
 - Requirement 
-- Corner cases 
+- Discuss Scale 
 - First Approach, Base cases discussion
 - Explain time and space complexity 
 - Optimizations and Iterations
