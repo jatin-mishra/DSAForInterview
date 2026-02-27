@@ -1,4 +1,4 @@
-package org.example.dp;
+package org.example.graph.topological;
 
 /*
 
@@ -30,8 +30,6 @@ Solution:
     start following bfs with size pattern
     start with 0 out degrees and call one and keep removing levels
     max levels is the answer
-
-
  */
 
 

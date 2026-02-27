@@ -1,4 +1,4 @@
-package org.example.dp;
+package org.example.graph.bfs;
 
 /*
 
